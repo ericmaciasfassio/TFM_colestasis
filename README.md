@@ -4,7 +4,7 @@
 
 ## Table of Contents
 * [Información General](#general-information)
-* [Setup]
+* [Setup](#Setup)
 * [Scripts](#features)
 * [¿Cómo utilizar el código?](#technologies-used)
 * [Contact](#contact)
