@@ -6,7 +6,7 @@
 * [Información General](#general-information)
 * [Setup](#Setup)
 * [Scripts](#features)
-* [¿Cómo utilizar el código?](#technologies-used)
+* [Ejemplo](#technologies-used)
 * [Contacto](#contacto)
 
 ## General Information
