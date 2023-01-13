@@ -26,3 +26,28 @@
 - Tech 2 - version 2.0
 - Tech 3 - version 3.0
 
+## Scripts
+Todos los scripts se ejecutan por terminal de una forma no interactiva.
+Todos piden 3 parámetros:
+1.archivo.csv: Con los datos
+2.Nombre de un directorio: Se creará un directorio un directorio nuevo
+3.Tipo de datos analizados: En el nombre de los archivos que se crearán durante la ejecución de los script se añadirá
+
+Encontramos un total de 4 scripts:
+
+1. Biomart.R: Este script permite clasificar los genes en función de la categoría a la que pertenecen (codificantes de proteínas, de lncRNA...). Además, permite cambiar el Ensembl id por el Gene Symbol. 
+
+2. Analisis_transcriptoma.sh: Dentro de este script encontramos un script en R y otro en Python, necesarios para realizar las figuras (PCA, dendrograma y heatmaps) y el análisis de expresión diferencial. Estos scripts son:
+  -analisis_miRNA_TFM.R
+  -hierarchical_clustering.py
+  
+3.Analisis_lipidoma.sh: Dentro de este script encontramos 
+  -lipidoma_final_repetido.py
+  -heatmap_lipidoma.py
+  -lipidoma_final.R
+  -hierarchical_clustering.py
+  
+4.Correlaciones
+ 
+
+
