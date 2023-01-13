@@ -7,7 +7,7 @@
 * [Setup](#Setup)
 * [Scripts](#features)
 * [¿Cómo utilizar el código?](#technologies-used)
-* [Contact](#contact)
+* [Contacto](#contacto)
 
 ## General Information
 - Provide general information about your project here.
