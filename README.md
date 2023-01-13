@@ -17,10 +17,12 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## ¿Cómo utilizar el código?
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
-
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
 ## Scripts
 Todos los scripts se ejecutan por terminal de una forma no interactiva.
 Todos piden 3 parámetros:
