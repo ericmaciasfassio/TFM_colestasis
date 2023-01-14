@@ -1,4 +1,4 @@
-# TFM
+# Estudio del perfil transcripcional y metabólico de la disfunción hepática en la colestasis infantil.
 En este repositorio se encuentra el código empleado durante el TFM.
 
 El objetivo de este estudio es analizar los cambios metabólicos y transcripcionales que subyacen a la colestasis infantil desde un abordaje poliómico. Para ello, se ha escrito código en R, Python y Bash. 
