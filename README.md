@@ -10,18 +10,19 @@ El objetivo de este estudio es analizar los cambios metabólicos y transcripcion
 * [Contacto](#contacto)
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+El código desarrollado en este TFM está pensando para ser ejectutado directamente en la terminal añadiendo los argumentos necesarios. Se han desarrollado 4 scripts princiaples en bash que agrupan a una serie de scripts de R y Python para facilitar la ejecución. 
+Estos scripts nos permiten:
+  -Clasificar genes
+  -Realizar análisis de expresión diferencial
+  -Realizar correlaciones no paramétricas de Spearman
+  -Realizar análisis de abundancia
+  -Construir PCAs, dendrogramas, volcanos plot y heatmaps.
+  
 ## Scripts
-Todos los scripts se ejecutan por terminal de una forma no interactiva.
-Todos piden 3 parámetros:
-1.archivo.csv: Con los datos
-2.Nombre de un directorio: Se creará un directorio un directorio nuevo
-3.Tipo de datos analizados: En el nombre de los archivos que se crearán durante la ejecución de los script se añadirá
+Los scripts se ejecutan desde la terminal indicando 3 argumentos:
+1. Directorio en el que se desea guardar los resultados: Se creará un directorio (comprobando previamente que no existe) y en él se guardarán las figuras y los archivos .csv de salida de los scripts. 
+2.Archivo csv: Se especificará la ruta cdel archivo .csv con los datos que se desea analizar.
+3.String con el tipo de datos a analizar: Esta string se añadirá al nombre de los .csv de salida para facilitar su identificación. Por ejemplo: miRNA
 
 Encontramos un total de 4 scripts:
 
