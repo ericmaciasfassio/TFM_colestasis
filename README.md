@@ -37,7 +37,7 @@ pip install numpy
 pip install scipy
 pip install matplotlib
 ```
-#Ejemplos
+# Ejemplos
 Para poder ejecutar los scripts debemos darles permiso.
 ```console
 chmod u+x Biomart.sh
