@@ -17,7 +17,7 @@ Estos scripts nos permiten: \
   -Realizar análisis de expresión diferencial. \
   -Realizar correlación no paramétrica de Spearman. \
   -Realizar análisis de abundancia \
-  -Construir PCAs, dendrogramas, volcanos plot y heatmaps. \
+  -Construir PCAs, dendrogramas, volcanos plot y heatmaps. 
   
 ## Scripts
 Los scripts se ejecutan desde la terminal indicando 3 argumentos: \
@@ -30,17 +30,17 @@ Scripts principales: \
   - Biomart.R. \ 
 
 2. Analisis_transcriptoma.sh: Este script permite realizar el análisis de expresión diferencial y construir las figuras del PCA, dendrograma, volcano plot y heatmap. Dentro de este script encontramos los scripts:\ 
-  - analisis_transcriptoma.R\ 
-  - hierarchical_clustering.py\ 
+  - analisis_transcriptoma.R \ 
+  - hierarchical_clustering.py \ 
   
 3.Analisis_lipidoma.sh: Este script permite realizar el análisis de abundancia del lipidoma y construir las figuras del PCA, dendrograma, volcano plot y heatmap.Dentro de este script encontramos los scripts: \ 
   -analisis_lipidoma.py \ 
   -heatmap_lipidoma.py \ 
   -lipidoma_final.R \ 
-  -hierarchical_clustering.py \ 
+  -hierarchical_clustering.py 
   
 4.Correlaciones.sh: Este script permite calcular los coeficientes no paramétricos de Spearman entre los genes y miRNAs. Dentro de este script encontramos el script: \
-  -correlaciones.py \ 
+  -correlaciones.py  
 
 ## Setup
 Primero se debe clonar el repositorio:
