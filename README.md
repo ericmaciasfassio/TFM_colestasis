@@ -39,7 +39,8 @@ Scripts principales:
   - lipidoma_final.R 
   - hierarchical_clustering.py 
   
-4.Correlaciones.sh: Este script permite calcular los coeficientes no paramétricos de Spearman entre los genes y miRNAs. Dentro de este script encontramos el script: 
+4.Correlaciones.sh: Este script permite calcular los coeficientes no paramétricos de Spearman entre los genes y miRNAs. En este script se debe indicar en el segundo argumento la ruta del archivo .csv de los genes y en el tercer argumento se debe indicar la ruta del archivo .csv de los miRNAs.
+Dentro de este script encontramos el script: 
   - correlaciones.py  
 
 ## Setup
