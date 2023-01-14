@@ -11,34 +11,35 @@ El objetivo de este estudio es analizar los cambios metabólicos y transcripcion
 
 ## General Information
 El código desarrollado en este TFM está pensando para ser ejectutado directamente en la terminal añadiendo los argumentos necesarios. Se han desarrollado 4 scripts princiaples en bash que agrupan a una serie de scripts de R y Python para facilitar la ejecución. 
-Estos scripts nos permiten:
-  -Clasificar genes
-  -Realizar análisis de expresión diferencial
-  -Realizar correlaciones no paramétricas de Spearman
-  -Realizar análisis de abundancia
-  -Construir PCAs, dendrogramas, volcanos plot y heatmaps.
+Estos scripts nos permiten:\
+  -Clasificar genes\
+  -Realizar análisis de expresión diferencial\
+  -Realizar correlación no paramétrica de Spearman\
+  -Realizar análisis de abundancia\
+  -Construir PCAs, dendrogramas, volcanos plot y heatmaps\
   
 ## Scripts
-Los scripts se ejecutan desde la terminal indicando 3 argumentos:
-1. Directorio en el que se desea guardar los resultados: Se creará un directorio (comprobando previamente que no existe) y en él se guardarán las figuras y los archivos .csv de salida de los scripts. 
-2.Archivo csv: Se especificará la ruta cdel archivo .csv con los datos que se desea analizar.
-3.String con el tipo de datos a analizar: Esta string se añadirá al nombre de los .csv de salida para facilitar su identificación. Por ejemplo: miRNA
+Los scripts se ejecutan desde la terminal indicando 3 argumentos:\
+1. Directorio en el que se desea guardar los resultados: Se creará un directorio (comprobando previamente que no existe) y en él se guardarán las figuras y los archivos .csv de salida de los scripts.\ 
+2.Archivo csv: Se especificará la ruta cdel archivo .csv con los datos que se desea analizar.\
+3.String con el tipo de datos a analizar: Esta string se añadirá al nombre de los .csv de salida para facilitar su identificación. Por ejemplo: miRNA. \
 
-Encontramos un total de 4 scripts:
+Scripts principales:\ 
+1. Biomart.sh: Este script permite clasificar los genes en función de la categoría a la que pertenecen (codificantes de proteínas, de lncRNA...) y además, permite cambiar el Ensembl id por el Gene Symbol. Dentro de este script encontramos el script:\
+  - Biomart.R\ 
 
-1. Biomart.R: Este script permite clasificar los genes en función de la categoría a la que pertenecen (codificantes de proteínas, de lncRNA...). Además, permite cambiar el Ensembl id por el Gene Symbol. 
-
-2. Analisis_transcriptoma.sh: Dentro de este script encontramos un script en R y otro en Python, necesarios para realizar las figuras (PCA, dendrograma y heatmaps) y el análisis de expresión diferencial. Estos scripts son:
-  -analisis_miRNA_TFM.R
-  -hierarchical_clustering.py
+2. Analisis_transcriptoma.sh: Este script permite realizar el análisis de expresión diferencial y construir las figuras del PCA, dendrograma, volcano plot y heatmap. Dentro de este script encontramos los scripts:\ 
+  - analisis_transcriptoma.R\ 
+  - hierarchical_clustering.py\ 
   
-3.Analisis_lipidoma.sh: Dentro de este script encontramos 
-  -lipidoma_final_repetido.py
-  -heatmap_lipidoma.py
-  -lipidoma_final.R
-  -hierarchical_clustering.py
+3.Analisis_lipidoma.sh: Este script permite realizar el análisis de abundancia del lipidoma y construir las figuras del PCA, dendrograma, volcano plot y heatmap.Dentro de este script encontramos los scripts:\ 
+  -analisis_lipidoma.py\ 
+  -heatmap_lipidoma.py\ 
+  -lipidoma_final.R\ 
+  -hierarchical_clustering.py\ 
   
-4.Correlaciones
+4.Correlaciones.sh: Este script permite calcular los coeficientes no paramétricos de Spearman entre los genes y miRNAs. Dentro de este script encontramos el script:
+  -correlaciones.py \ 
 
 ## Setup
 Primero se debe clonar el repositorio:
