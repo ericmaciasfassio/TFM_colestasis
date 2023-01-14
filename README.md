@@ -3,13 +3,13 @@ En este repositorio se encuentra el código empleado durante el TFM.\
 El objetivo de este estudio es analizar los cambios metabólicos y transcripcionales que subyacen a la colestasis infantil desde un abordaje poliómico. Para ello, se ha escrito código en R, Python y Bash. 
 
 ## Table of Contents
-* [Información General](#general-information)
-* [Scripts](#features)
+* [Información General](#Información General)
+* [Scripts](#Scripts)
 * [Setup](#Setup)
-* [Ejemplo](#technologies-used)
-* [Contacto](#contacto)
+* [Ejemplo](#Ejemplo)
+* [Contacto](#Contacto)
 
-## General Information
+## Información General
 El código desarrollado en este TFM está pensando para ser ejectutado directamente en la terminal añadiendo los argumentos necesarios. Se han desarrollado 4 scripts princiaples en bash que agrupan a una serie de scripts de R y Python para facilitar la ejecución. 
 Estos scripts nos permiten:\
   -Clasificar genes\
@@ -110,7 +110,7 @@ Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio 
 ```
 Script lipidoma.sh finalizado 
 ```
-## Contact
+## Contacto
 Created by [@ericmacias](https://www.linkedin.com/in/eric-mac%C3%ADas-fassio-594850215) - feel free to contact me!
 
  
