@@ -15,6 +15,7 @@ El objetivo de este estudio es analizar los cambios metabólicos y transcripcion
 - What is the purpose of your project?
 - Why did you undertake it?
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
 ## Scripts
 Todos los scripts se ejecutan por terminal de una forma no interactiva.
 Todos piden 3 parámetros:
@@ -107,6 +108,8 @@ Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio 
 ```
 Script lipidoma.sh finalizado 
 ```
+## Contact
+Created by [@ericmacias](https://www.linkedin.com/in/eric-mac%C3%ADas-fassio-594850215) - feel free to contact me!
 
  
 
