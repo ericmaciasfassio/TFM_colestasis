@@ -25,22 +25,22 @@ Los scripts se ejecutan desde la terminal indicando 3 argumentos: \
 2.Archivo csv: Se especificará la ruta cdel archivo .csv con los datos que se desea analizar. \
 3.String con el tipo de datos a analizar: Esta string se añadirá al nombre de los .csv de salida para facilitar su identificación. Por ejemplo: miRNA. \
 
-Scripts principales: \ 
+Scripts principales: 
 1. Biomart.sh: Este script permite clasificar los genes en función de la categoría a la que pertenecen (codificantes de proteínas, de lncRNA...) y además, permite cambiar el Ensembl id por el Gene Symbol. Dentro de este script encontramos el script: \
-  - Biomart.R. \ 
+  - Biomart.R. 
 
-2. Analisis_transcriptoma.sh: Este script permite realizar el análisis de expresión diferencial y construir las figuras del PCA, dendrograma, volcano plot y heatmap. Dentro de este script encontramos los scripts:\ 
-  - analisis_transcriptoma.R \ 
-  - hierarchical_clustering.py \ 
+2. Analisis_transcriptoma.sh: Este script permite realizar el análisis de expresión diferencial y construir las figuras del PCA, dendrograma, volcano plot y heatmap. Dentro de este script encontramos los scripts:
+  - analisis_transcriptoma.R
+  - hierarchical_clustering.py 
   
-3.Analisis_lipidoma.sh: Este script permite realizar el análisis de abundancia del lipidoma y construir las figuras del PCA, dendrograma, volcano plot y heatmap.Dentro de este script encontramos los scripts: \ 
-  -analisis_lipidoma.py \ 
-  -heatmap_lipidoma.py \ 
-  -lipidoma_final.R \ 
-  -hierarchical_clustering.py 
+3.Analisis_lipidoma.sh: Este script permite realizar el análisis de abundancia del lipidoma y construir las figuras del PCA, dendrograma, volcano plot y heatmap.Dentro de este script encontramos los scripts: 
+  - analisis_lipidoma.py 
+  - heatmap_lipidoma.py 
+  - lipidoma_final.R 
+  - hierarchical_clustering.py 
   
-4.Correlaciones.sh: Este script permite calcular los coeficientes no paramétricos de Spearman entre los genes y miRNAs. Dentro de este script encontramos el script: \
-  -correlaciones.py  
+4.Correlaciones.sh: Este script permite calcular los coeficientes no paramétricos de Spearman entre los genes y miRNAs. Dentro de este script encontramos el script: 
+  - correlaciones.py  
 
 ## Setup
 Primero se debe clonar el repositorio:
