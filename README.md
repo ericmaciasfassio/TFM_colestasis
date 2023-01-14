@@ -18,20 +18,24 @@ El objetivo de este estudio es analizar los cambios metabólicos y transcripcion
 
 ## ¿Cómo utilizar el código?
 Primero se debe clonar el repositorio:
-```
+```console
 git clone https://github.com/ericmaciasfassio/TFM_colestasis.git
 
 ```
 También se deberán instalar los paquetes de R y las librerías de Python.
 ```R
 install.packages("BiocManager")
+BiocManager::install("biomaRt")
+BiocManager::install("ComplexHeatmap")
 BiocManager::install("DESeq2")
 BiocManager::install("EnhancedVolcano")
-BiocManager::install("ComplexHeatmap")
 install.packages("RColorBrewer")
 ```
-```
-pip install
+```console
+pip install pandas
+pip install numpy
+pip install scipy
+pip install matplotlib
 ```
 ## Scripts
 Todos los scripts se ejecutan por terminal de una forma no interactiva.
