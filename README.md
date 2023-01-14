@@ -37,18 +37,22 @@ pip install numpy
 pip install scipy
 pip install matplotlib
 ```
-# Ejemplos
+
 Para poder ejecutar los scripts debemos darles permiso.
+
 ```console
 chmod u+x Biomart.sh
 ```
 Ejecutamos el script de Biomart.sh:
+
 ```console
 ./Biomart.sh ./Resultado_biomart ./csv_ejemplos/biomart.csv
-``
+```
 Al finalizar la ejecución obtenemos un mensaje por pantalla.
+
 ```console
 Script Biomart.sh finalizado
+
 
 ## Scripts
 Todos los scripts se ejecutan por terminal de una forma no interactiva.
