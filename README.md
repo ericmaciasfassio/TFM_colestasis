@@ -20,10 +20,10 @@ Estos scripts nos permiten: \
   -Construir PCAs, dendrogramas, volcanos plot y heatmaps. 
   
 ## Scripts
-Los scripts se ejecutan desde la terminal indicando 3 argumentos: \
+Los scripts se ejecutan desde la terminal indicando 3 argumentos: 
 1. Directorio en el que se desea guardar los resultados: Se creará un directorio (comprobando previamente que no existe) y en él se guardarán las figuras y los archivos .csv de salida de los scripts. \ 
-2.Archivo csv: Se especificará la ruta cdel archivo .csv con los datos que se desea analizar. \
-3.String con el tipo de datos a analizar: Esta string se añadirá al nombre de los .csv de salida para facilitar su identificación. Por ejemplo: miRNA. \
+2. Archivo csv: Se especificará la ruta cdel archivo .csv con los datos que se desea analizar. \
+3. String con el tipo de datos a analizar: Esta string se añadirá al nombre de los .csv de salida para facilitar su identificación. Por ejemplo: miRNA. \
 
 Scripts principales: 
 1. Biomart.sh: Este script permite clasificar los genes en función de la categoría a la que pertenecen (codificantes de proteínas, de lncRNA...) y además, permite cambiar el Ensembl id por el Gene Symbol. Dentro de este script encontramos el script: \
