@@ -50,7 +50,7 @@ Ejecutamos el script de Biomart.sh:
 ```
 Al finalizar la ejecución obtenemos un mensaje por pantalla.
 
-```console
+```
 Script Biomart.sh finalizado
 ```
 
