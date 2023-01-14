@@ -22,7 +22,7 @@ Primero se debe clonar el repositorio:
 git clone https://github.com/ericmaciasfassio/TFM_colestasis.git
 
 ```
-También se deberán instalar los paquetes de R y las librerías de Python.
+También se deberán instalar los paquetes de R y las librerías de Python siguientes:
 ```R
 install.packages("BiocManager")
 BiocManager::install("biomaRt")
@@ -37,6 +37,19 @@ pip install numpy
 pip install scipy
 pip install matplotlib
 ```
+#Ejemplos
+Para poder ejecutar los scripts debemos darles permiso.
+```console
+chmod u+x Biomart.sh
+```
+Ejecutamos el script de Biomart.sh:
+```console
+./Biomart.sh ./Resultado_biomart ./csv_ejemplos/biomart.csv
+``
+Al finalizar la ejecución obtenemos un mensaje por pantalla.
+```console
+Script Biomart.sh finalizado
+
 ## Scripts
 Todos los scripts se ejecutan por terminal de una forma no interactiva.
 Todos piden 3 parámetros:
