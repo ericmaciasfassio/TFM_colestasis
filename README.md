@@ -1,5 +1,6 @@
 # TFM
 En este repositorio se encuentra el código empleado durante el TFM.\
+
 El objetivo de este estudio es analizar los cambios metabólicos y transcripcionales que subyacen a la colestasis infantil desde un abordaje poliómico. Para ello, se ha escrito código en R, Python y Bash. 
 
 ## Table of Contents
@@ -12,11 +13,11 @@ El objetivo de este estudio es analizar los cambios metabólicos y transcripcion
 ## Información General
 El código desarrollado en este TFM está pensando para ser ejectutado directamente en la terminal añadiendo los argumentos necesarios. Se han desarrollado 4 scripts princiaples en bash que agrupan a una serie de scripts de R y Python para facilitar la ejecución. 
 Estos scripts nos permiten: \
-  -Clasificar genes \
-  -Realizar análisis de expresión diferencial \
-  -Realizar correlación no paramétrica de Spearman \
+  -Clasificar genes. \
+  -Realizar análisis de expresión diferencial. \
+  -Realizar correlación no paramétrica de Spearman. \
   -Realizar análisis de abundancia \
-  -Construir PCAs, dendrogramas, volcanos plot y heatmaps \
+  -Construir PCAs, dendrogramas, volcanos plot y heatmaps. \
   
 ## Scripts
 Los scripts se ejecutan desde la terminal indicando 3 argumentos: \
@@ -26,7 +27,7 @@ Los scripts se ejecutan desde la terminal indicando 3 argumentos: \
 
 Scripts principales: \ 
 1. Biomart.sh: Este script permite clasificar los genes en función de la categoría a la que pertenecen (codificantes de proteínas, de lncRNA...) y además, permite cambiar el Ensembl id por el Gene Symbol. Dentro de este script encontramos el script: \
-  - Biomart.R \ 
+  - Biomart.R. \ 
 
 2. Analisis_transcriptoma.sh: Este script permite realizar el análisis de expresión diferencial y construir las figuras del PCA, dendrograma, volcano plot y heatmap. Dentro de este script encontramos los scripts:\ 
   - analisis_transcriptoma.R\ 
