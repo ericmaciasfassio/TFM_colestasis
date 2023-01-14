@@ -63,17 +63,27 @@ Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio 
 ```
 Script analisis_transcriptoma.sh finalizado 
 ```
+
 Ejecutamos el script de correlaciones.sh:
 
 ```console
 ./correlaciones.sh ./resultado_correlaciones ./csv_ejemplos/genes_correlacion.csv ./csv_ejemplos/mirnas_correlacion.csv 
 ```
-Ejecutamos el script de correlaciones.sh:
-
-```conselo
+Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio ./resultado_correlaciones se guardarán los csv de salida y las figuras.
 
 ```
+Script correlaciones.sh finalizado 
+```
+Ejecutamos el script de lipidoma.sh:
 
+```console
+./lipidoma.sh ./resultado_lipidoma_2 ./csv_ejemplos/datos_lipidoma.csv lipidoma
+```
+Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio ./resultado_correlaciones se guardarán los csv de salida y las figuras.
+
+```
+Script lipidoma.sh finalizado 
+```
 ## Scripts
 Todos los scripts se ejecutan por terminal de una forma no interactiva.
 Todos piden 3 parámetros:
