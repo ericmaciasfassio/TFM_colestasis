@@ -48,13 +48,22 @@ Ejecutamos el script de Biomart.sh:
 ```console
 ./Biomart.sh ./Resultado_biomart ./csv_ejemplos/biomart.csv
 ```
-Al finalizar la ejecución obtenemos un mensaje por pantalla.
+Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio Resultado_biomart se guardará el csv de salida.
 
 ```
 Script Biomart.sh finalizado
 ```
+Ejecutamos el script de analisis_transcriptoma.sh:
 
+```console
+/analisis_transcriptoma.sh ./resultados_transcriptoma ./csv_ejemplos/genes.csv genes
+```
+Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio ./resultados_transcriptoma se guardarán los csv de salida y las figuras.
 
+```
+Script analisis_transcriptoma.sh finalizado 
+```
+Ejecutamos el script de correlaciones.sh:
 ## Scripts
 Todos los scripts se ejecutan por terminal de una forma no interactiva.
 Todos piden 3 parámetros:
