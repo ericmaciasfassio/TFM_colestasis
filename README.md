@@ -7,7 +7,7 @@ El objetivo de este estudio es analizar los cambios metabólicos y transcripcion
 * [Información General](#Información-General)
 * [Scripts](#Scripts)
 * [Setup](#Setup)
-* [Ejemplo](#Ejemplo)
+* [Ejemplo de ejecución del cógido](#Ejemplo de ejecución del código)
 * [Contacto](#Contacto)
 
 ## Información General
@@ -21,7 +21,7 @@ Estos scripts nos permiten realizar los siguientes análisis:
   
 ## Scripts
 Los scripts se ejecutan desde la terminal indicando 3 argumentos: 
-1. Directorio en el que se desea guardar los resultados: Se creará un directorio (comprobando previamente que no existe) y en él, se guardarán las figuras y los archivos .csv de salida de los scripts. 
+1. Directorio en el que se desea guardar los resultados: Se creará un directorio (comprobando previamente que no existe) en el que se guardarán las figuras y los archivos .csv de salida de los scripts. 
 2. Archivo .csv: Se especificará la ruta del archivo .csv con los datos que se desean analizar. 
 3. String con el tipo de datos a analizar: Esta string se añadirá al nombre de los .csv de salida para facilitar su identificación. Por ejemplo: miRNA. 
 
@@ -39,7 +39,7 @@ Scripts principales:
   - lipidoma_final.R 
   - hierarchical_clustering.py 
   
-4.Correlaciones.sh: Este script permite calcular los coeficientes no paramétricos de Spearman entre los genes y miRNAs. En este script se debe indicar en el segundo argumento la ruta del archivo .csv de los genes y en el tercer argumento se debe indicar la ruta del archivo .csv de los miRNAs.
+4.Correlaciones.sh: Este script permite calcular los coeficientes de correlación no paramétricos de Spearman entre los genes y miRNAs (todas las posibles combinaciones). En este script se debe indicar como segundo argumento la ruta del archivo .csv de los genes y en el tercer argumento se debe indicar la ruta del archivo .csv de los miRNAs.
 Dentro de este script encontramos el script: 
   - correlaciones.py  
 
@@ -65,13 +65,13 @@ pip install scipy
 pip install matplotlib
 ```
 
-## Ejemplo
+## Ejemplo de ejecución del código
 Para poder ejecutar los scripts debemos darles permiso.
 
 ```console
-chmod u+x Biomart.sh
+chmod u+x todos.sh
 ```
-Ejecutamos el script de Biomart.sh:
+1. Script de Biomart.sh:
 
 ```console
 ./Biomart.sh ./Resultado_biomart ./csv_ejemplos/biomart.csv
@@ -81,7 +81,7 @@ Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio 
 ```
 Script Biomart.sh finalizado
 ```
-Ejecutamos el script de analisis_transcriptoma.sh:
+2. Script de analisis_transcriptoma.sh:
 
 ```console
 ./analisis_transcriptoma.sh ./resultados_transcriptoma ./csv_ejemplos/genes.csv genes
@@ -92,7 +92,7 @@ Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio 
 Script analisis_transcriptoma.sh finalizado 
 ```
 
-Ejecutamos el script de correlaciones.sh:
+3. Script de correlaciones.sh:
 
 ```console
 ./correlaciones.sh ./resultado_correlaciones ./csv_ejemplos/genes_correlacion.csv ./csv_ejemplos/mirnas_correlacion.csv 
@@ -102,7 +102,7 @@ Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio 
 ```
 Script correlaciones.sh finalizado 
 ```
-Ejecutamos el script de lipidoma.sh:
+4. Script de lipidoma.sh:
 
 ```console
 ./lipidoma.sh ./resultado_lipidoma_2 ./csv_ejemplos/datos_lipidoma.csv lipidoma
