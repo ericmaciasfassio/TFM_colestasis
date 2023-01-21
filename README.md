@@ -96,7 +96,7 @@ Script analisis_transcriptoma.sh finalizado
 ```console
 ./correlaciones.sh ./resultado_correlaciones ./csv_ejemplos/genes_correlacion.csv ./csv_ejemplos/mirnas_correlacion.csv 
 ```
-Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio ./resultado_correlaciones se guardarán los csv de salida y las figuras.
+Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio ./resultado_correlaciones se guardarán los csv de salida.
 
 ```
 Script correlaciones.sh finalizado 
