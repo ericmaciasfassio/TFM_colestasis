@@ -68,7 +68,7 @@ pip install matplotlib
 Para poder ejecutar los scripts debemos darles permiso.
 
 ```console
-chmod u+x todos.sh
+chmod u+x *.sh
 ```
 1. Script de Biomart.sh:
 
