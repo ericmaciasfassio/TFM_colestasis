@@ -1,7 +1,7 @@
 # Estudio del perfil transcripcional y metabólico de la disfunción hepática en la colestasis infantil.
-En este repositorio se encuentra el código empleado durante el TFM.
+En este repositorio se recoge el código empleado durante la realización del TFM.
 
-El objetivo de este estudio es analizar los cambios metabólicos y transcripcionales que subyacen a la colestasis infantil desde un abordaje poliómico. Para ello, se ha escrito código en R, Python y Bash. 
+El objetivo de este estudio es analizar los cambios metabólicos y transcripcionales que subyacen a la colestasis infantil desde un abordaje poliómico. Para ello, se ha escrito código en R, Python y Bash que permiten analizar los datos procedentes del lipidoma y del transcriptoma de las muestras, empleando los principales paquetes de R y las principales librerías de Python.
 
 ## Tabla de Contenidos
 * [Información General](#Información-General)
@@ -11,18 +11,18 @@ El objetivo de este estudio es analizar los cambios metabólicos y transcripcion
 * [Contacto](#Contacto)
 
 ## Información General
-El código desarrollado en este TFM está pensando para ser ejectutado directamente en la terminal añadiendo los argumentos necesarios. Se han desarrollado 4 scripts princiaples en bash que agrupan a una serie de scripts de R y Python para facilitar la ejecución. 
-Estos scripts nos permiten: 
+El código desarrollado en este TFM está pensando para ser ejectutado directamente desde la terminal (no interactivo) añadiendo los argumentos necesarios en cada script. Se han desarrollado 4 scripts princiaples en bash que agrupan a una serie de scripts de R y Python para facilitar la ejecución. 
+Estos scripts nos permiten realizar los siguientes análisis: 
   - Clasificar genes. 
   - Realizar análisis de expresión diferencial. 
-  - Realizar correlación no paramétrica de Spearman. 
-  - Realizar análisis de abundancia 
-  - Construir PCAs, dendrogramas, volcanos plot y heatmaps. 
+  - Realizar correlaciones no paramétrica de Spearman. 
+  - Realizar análisis de abundancia. 
+  - Construir figuras: PCAs, dendrogramas, volcanos plot y heatmaps. 
   
 ## Scripts
 Los scripts se ejecutan desde la terminal indicando 3 argumentos: 
-1. Directorio en el que se desea guardar los resultados: Se creará un directorio (comprobando previamente que no existe) y en él se guardarán las figuras y los archivos .csv de salida de los scripts. 
-2. Archivo csv: Se especificará la ruta cdel archivo .csv con los datos que se desea analizar. 
+1. Directorio en el que se desea guardar los resultados: Se creará un directorio (comprobando previamente que no existe) y en él, se guardarán las figuras y los archivos .csv de salida de los scripts. 
+2. Archivo .csv: Se especificará la ruta del archivo .csv con los datos que se desean analizar. 
 3. String con el tipo de datos a analizar: Esta string se añadirá al nombre de los .csv de salida para facilitar su identificación. Por ejemplo: miRNA. 
 
 Scripts principales: 
