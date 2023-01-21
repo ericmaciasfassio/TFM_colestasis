@@ -33,14 +33,13 @@ Scripts principales:
   - analisis_transcriptoma.R
   - hierarchical_clustering.py 
   
-3.Analisis_lipidoma.sh: Este script permite realizar el análisis de abundancia del lipidoma y construir las figuras del PCA, dendrograma, volcano plot y heatmap.Dentro de este script encontramos los scripts: 
+3. Analisis_lipidoma.sh: Este script permite realizar el análisis de abundancia del lipidoma y construir las figuras del PCA, dendrograma, volcano plot y heatmap. Dentro de este script encontramos los scripts: 
   - analisis_lipidoma.py 
   - heatmap_lipidoma.py 
   - lipidoma_final.R 
   - hierarchical_clustering.py 
   
-4.Correlaciones.sh: Este script permite calcular los coeficientes de correlación no paramétricos de Spearman entre los genes y miRNAs (todas las posibles combinaciones). En este script se debe indicar como segundo argumento la ruta del archivo .csv de los genes y en el tercer argumento se debe indicar la ruta del archivo .csv de los miRNAs.
-Dentro de este script encontramos el script: 
+4. Correlaciones.sh: Este script permite calcular los coeficientes de correlación no paramétricos de Spearman entre los genes y miRNAs (todas las posibles combinaciones). En este script se debe indicar como segundo argumento la ruta del archivo .csv de los genes y en el tercer argumento se debe indicar la ruta del archivo .csv de los miRNAs. Dentro de este script encontramos el script: 
   - correlaciones.py  
 
 ## Setup
