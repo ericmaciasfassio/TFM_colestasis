@@ -73,7 +73,7 @@ chmod u+x *.sh
 1. Script de Biomart.sh:
 
 ```console
-./Biomart.sh ./Resultado_biomart ./csv_ejemplos/biomart.csv
+./Biomart.sh ./Resultado_biomart ./csv_ejemplos/biomart.csv genes
 ```
 Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio Resultado_biomart se guardará el csv de salida.
 
