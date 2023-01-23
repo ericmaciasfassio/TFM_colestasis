@@ -70,7 +70,7 @@ Para poder ejecutar los scripts debemos darles permiso.
 ```console
 chmod u+x *.sh
 ```
-1. Script de Biomart.sh:
+1. Script Biomart.sh:
 
 ```console
 ./Biomart.sh ./Resultado_biomart ./csv_ejemplos/biomart.csv genes
@@ -80,7 +80,7 @@ Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio 
 ```
 Script Biomart.sh finalizado
 ```
-2. Script de analisis_transcriptoma.sh:
+2. Script analisis_transcriptoma.sh:
 
 ```console
 ./analisis_transcriptoma.sh ./resultados_transcriptoma ./csv_ejemplos/genes.csv genes
@@ -91,7 +91,7 @@ Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio 
 Script analisis_transcriptoma.sh finalizado 
 ```
 
-3. Script de correlaciones.sh:
+3. Script correlaciones.sh:
 
 ```console
 ./correlaciones.sh ./resultado_correlaciones ./csv_ejemplos/genes_correlacion.csv ./csv_ejemplos/mirnas_correlacion.csv 
@@ -101,7 +101,7 @@ Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio 
 ```
 Script correlaciones.sh finalizado 
 ```
-4. Script de lipidoma.sh:
+4. Script lipidoma.sh:
 
 ```console
 ./lipidoma.sh ./resultado_lipidoma_2 ./csv_ejemplos/datos_lipidoma.csv lipidoma
