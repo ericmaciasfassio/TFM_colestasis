@@ -42,6 +42,7 @@ Scripts principales:
 4. Correlaciones.sh: Este script permite calcular los coeficientes de correlación no paramétricos de Spearman entre los genes y miRNAs (todas las posibles combinaciones). En este script se debe indicar como segundo argumento la ruta del archivo .csv de los genes y en el tercer argumento se debe indicar la ruta del archivo .csv de los miRNAs. Dentro de este script encontramos el script: 
   - correlaciones.py  
 
+Tras ejecutar los scripts obtendremos los archivos .csv de salida con los resultados del análisis seleccionado en el directorio indicado. Las figuras se guardarán en el directorio figuras, dentro del directorio indicado.
 ## Setup
 Primero se debe clonar el repositorio:
 ```console
