@@ -15,7 +15,7 @@ El código desarrollado en este TFM está pensando para ser ejectutado directame
 Estos scripts nos permiten realizar los siguientes análisis: 
   - Clasificar genes. 
   - Realizar análisis de expresión diferencial. 
-  - Realizar correlaciones no paramétrica de Spearman. 
+  - Realizar correlaciones no paramétricas de Spearman. 
   - Realizar análisis de abundancia. 
   - Construir figuras: PCAs, dendrogramas, volcanos plot y heatmaps. 
   
@@ -86,7 +86,7 @@ Script Biomart.sh finalizado
 ```console
 ./analisis_transcriptoma.sh ./resultados_transcriptoma ./csv_ejemplos/genes.csv genes
 ```
-Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio ./resultados_transcriptoma se guardarán los csv de salida y las figuras.
+Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio resultados_transcriptoma se guardarán los csv de salida y las figuras.
 
 ```
 Script analisis_transcriptoma.sh finalizado 
@@ -97,7 +97,7 @@ Script analisis_transcriptoma.sh finalizado
 ```console
 ./correlaciones.sh ./resultado_correlaciones ./csv_ejemplos/genes_correlacion.csv ./csv_ejemplos/mirnas_correlacion.csv 
 ```
-Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio ./resultado_correlaciones se guardarán los csv de salida.
+Al finalizar la ejecución obtenemos un mensaje por pantalla y en el directorio resultado_correlaciones se guardarán los csv de salida.
 
 ```
 Script correlaciones.sh finalizado 
