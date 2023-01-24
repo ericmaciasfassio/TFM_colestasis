@@ -7,7 +7,7 @@ El objetivo de este estudio es analizar los cambios metabólicos y transcripcion
 * [Información General](#Información-General)
 * [Scripts](#Scripts)
 * [Setup](#Setup)
-* [Ejemplo de ejecución del cógido](#Ejemplo-de-ejecución-del-código)
+* [Ejemplo de ejecución del código](#Ejemplo-de-ejecución-del-código)
 * [Contacto](#Contacto)
 
 ## Información General
